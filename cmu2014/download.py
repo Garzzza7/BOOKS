@@ -15,3 +15,4 @@ for pdf in pdfs:
         urllib.request.urlretrieve(url + buf, buf)
         # os.system("wget " + url + buf)
         print(buf + " done")
+print("ALL DONE!!!!!")        
