@@ -28,4 +28,6 @@ def process_url(url, cnt):
 url = "https://web.stanford.edu/class/archive/cs/cs166/cs166.1166/lectures/"
 for i in range(0, 19):
     process_url(url, i)
+    print("\n", i, " DONE\n\n")
+
 print("ALL DONE!!!!!")
